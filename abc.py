@@ -4,7 +4,6 @@ import streamlit as st
 import warnings
 
 warnings.filterwarnings('ignore')
-from main import *
 
 
 def gui():
