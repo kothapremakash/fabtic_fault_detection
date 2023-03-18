@@ -2,7 +2,7 @@ import tempfile
 from tracemalloc import start
 import streamlit as st
 import warnings
-
+import cv2
 warnings.filterwarnings('ignore')
 
 
