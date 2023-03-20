@@ -4,7 +4,7 @@ import streamlit as st
 import warnings
 import cv2
 warnings.filterwarnings('ignore')
-
+from main_2 import *
 
 def gui():
     def set_bg_hack_url():
