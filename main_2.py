@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 def run(source = None):
 
-    model = tensorflow.keras.models.load_model('E:/Final year project/Final year project/FABRIC - Copy/FABRIC - Copy/model/weights_best.hdf5')
+    model = tensorflow.keras.models.load_model('https://github.com/kothapremakash/fabtic_fault_detection/blob/main/weights_best.hdf5')
 
     img = cv2.imread(source)
 
