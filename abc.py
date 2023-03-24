@@ -47,7 +47,7 @@ def gui():
     st.sidebar.title("Image source")
 
     source = st.sidebar.file_uploader('Upload Image ', type=['jpg', 'png', 'jpeg'])
-    demo_image = r'C:/Users/prema/OneDrive/Desktop/augmented_images/aug_0_8.png'
+    demo_image = r'https://github.com/kothapremakash/fabtic_fault_detection/blob/main/images123.png'
     # st.image(demo_image, caption='Image of a Fabric')
     image = cv2.imread(demo_image)
     st.image(image, caption= 'Image of a Fabric',width=300)
