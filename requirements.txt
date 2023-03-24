@@ -1,4 +1,3 @@
 opencv-python-headless
-main_2
 tensorflow
 streamlit==1.13.0
