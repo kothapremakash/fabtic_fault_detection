@@ -36,4 +36,4 @@ def run(source = None):
 if __name__ == "__main__":
     # opt = parse_opt()
     # main(opt)
-    run(source='C:/Users/12016/Desktop/FABRIC - Copy/Defect/aug_0_10.png')
+    run(source='https://github.com/kothapremakash/fabtic_fault_detection/blob/main/images123.png')
