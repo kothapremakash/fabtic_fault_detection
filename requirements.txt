@@ -1,6 +1,4 @@
-opencv-python-headless 4.7. 0.68
-
-
+opencv-python-headless 
 tensorflow
 streamlit==1.13.0
 protobuf
