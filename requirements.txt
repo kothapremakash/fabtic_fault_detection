@@ -1,5 +1,4 @@
 opencv-python-headless 
 tensorflow
-main_2
 streamlit==1.13.0
 protobuf
