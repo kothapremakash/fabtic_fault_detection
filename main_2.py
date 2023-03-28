@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 def run(source = None):
 
-    model = tensorflow.keras.models.load_model("E:\Final year project\Final year project\FABRIC - Copy\FABRIC - Copy\model\weights_best.hdf5")
+    model = tensorflow.keras.models.load_model(r'E:\Final year project\Final year project\FABRIC - Copy\FABRIC - Copy\model\weights_best.hdf5')
 
     img = cv2.imread(source)
 
@@ -36,4 +36,4 @@ def run(source = None):
 if __name__ == "__main__":
     # opt = parse_opt()
     # main(opt)
-    run(source="E:\Final year project\Final year project\FABRIC - Copy\FABRIC - Copy\Normal\images44.png")
+    run(source=r'E:\Final year project\Final year project\FABRIC - Copy\FABRIC - Copy\Normal\images44.png')
